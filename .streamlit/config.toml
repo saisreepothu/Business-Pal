@@ -1,9 +1,23 @@
 [theme]
-primaryColor="#92400e"
-backgroundColor="#f9f8f4"
-secondaryBackgroundColor="#eae8dd"
-textColor="#2e2b23"
-font = "sans serif" 
+primaryColor = "#92400e"
+backgroundColor = "#f9f8f4"
+secondaryBackgroundColor = "#eae8dd"
+textColor = "#2e2b23"
+font = "sans serif"
 
 [server]
 headless = true
+port = 8501
+address = "0.0.0.0"
+enableCORS = false
+enableXsrfProtection = false
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+fastReruns = true
+
+[logger]
+level = "warning"

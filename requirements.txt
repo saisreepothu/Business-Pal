@@ -1,21 +1,20 @@
-streamlit
-pandas
-numpy
-plotly
-PyMuPDF
-python-dotenv
-google-search-results
-langchain
-langchain-openai
-langchain-core
-langgraph
-langchain-google-genai
-langchain-deepseek
-protobuf==3.20.*
-pinecone-client
-langchain-pinecone
-
-# conda create -n market_research_bot python=3.10 -y
-# conda activate market_research_bot
-# pip install -r requirements.txt
-# streamlit run filename.py
+streamlit==1.43.2
+pandas==2.2.3
+numpy==1.26.4
+plotly==6.0.1
+PyMuPDF==1.25.5
+python-dotenv==1.1.0
+openai==1.77.0
+langchain==0.3.24
+langchain-core==0.3.56
+langchain-openai==0.3.14
+langchain-google-genai==2.1.4
+langchain-deepseek==0.1.3
+langchain-community==0.3.23
+langchain-pinecone==0.2.0
+langgraph==0.4.1
+pinecone-client==5.0.1
+faiss-cpu==1.10.0
+google-search-results==2.4.2
+protobuf==5.29.4
+tenacity==9.0.0
